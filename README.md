@@ -82,14 +82,6 @@ You also need to add any necessary resources to the `resources` section of the `
                   serverless deploy --verbose
 
 
-# Endpoints
-   
-  - GET - https://im1th8rr46.execute-api.us-east-2.amazonaws.com/dev/todos
-  - POST - https://im1th8rr46.execute-api.us-east-2.amazonaws.com/dev/todos
-  - PATCH - https://im1th8rr46.execute-api.us-east-2.amazonaws.com/dev/todos/{todoId}
-  - DELETE - https://im1th8rr46.execute-api.us-east-2.amazonaws.com/dev/todos/{todoId}
-  - POST - https://im1th8rr46.execute-api.us-east-2.amazonaws.com/dev/todos/{todoId}/attachment
-
 functions:
   
 # Lambda Functions
@@ -101,23 +93,6 @@ functions:
   - DeleteTodo: serverless-dev-DeleteTodo
   -  GenerateUploadUrl: serverless-dev-GenerateUploadUrl 
   
-# Serverless 
-  <img width="1438" alt="Screenshot 2022-06-17 at 14 52 03" src="https://user-images.githubusercontent.com/80678596/174301979-2bd3fe32-df87-4417-8f9c-88e7e43adbea.png">
-
-  
-  <img width="1440" alt="Screenshot 2022-06-17 at 14 50 52" src="https://user-images.githubusercontent.com/80678596/174301833-78e5a059-ad52-468b-ac52-ff371b130ed6.png">
-
-  
-# Auth0
-  
- <img width="1440" alt="Screenshot 2022-06-17 at 14 53 08" src="https://user-images.githubusercontent.com/80678596/174302159-192628e6-ea03-4d56-9253-a22c349286d1.png">
-
-  
-# AWS Cloud Formation 
-
-  <img width="1440" alt="Screenshot 2022-06-17 at 14 55 40" src="https://user-images.githubusercontent.com/80678596/174302538-4c3a2a21-321c-4a81-b143-5873c9c94c15.png">
-
-   
 
 
 # Frontend
